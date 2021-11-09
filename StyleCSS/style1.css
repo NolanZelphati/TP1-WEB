@@ -1,0 +1,29 @@
+/* paramétrage des pages n°1 */
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.para {
+  text-align: center;
+  font-size: 130%;
+  font-weight: bold;
+  color: white;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  font-size: 180%;
+  font-weight: bold;
+  margin-top: 150px;
+}
+.buttonBG:hover {
+  background-color: white;
+}
+html {
+  background: url(/asset/Helheim.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
